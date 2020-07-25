@@ -1,27 +1,8 @@
-# json-xs
-
-JSON Serialization with eXtra Small memory footprint.
-
-Provides helper to produce JSON for existing, JSON-agnostic data model.
-
-## Usage
-
-This library is not yet published to [crates.io]() as it is still very immature.
-
-Add following dependency to your `Cargo.toml`:
-
-```toml
-[dependencies]
-jsonxs = { git = "https://github.com/pkozelka/jsonxs-rs", branch = "master" }
-```
-
-In your code, use it like this:
-
-```rust
 use std::collections::HashMap;
 use std::io::Result;
 
 use jsonxs::{JsonXsSerializer, JsonXsValue};
+
 pub fn json_save(map: &HashMap<String, String>) -> Result<()> {
     // let mut json = JsonXsSerializer::use_file("hello.json")?;
     let mut json = JsonXsSerializer::use_stdout();
@@ -44,4 +25,3 @@ fn main() {
 
     json_save(&map).unwrap();
 }
-```

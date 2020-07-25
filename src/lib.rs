@@ -1,5 +1,8 @@
 mod jsonxs;
 
+pub use jsonxs::JsonXsSerializer;
+pub use jsonxs::JsonXsValue;
+
 #[cfg(test)]
 mod tests {
     #[test]

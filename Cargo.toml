@@ -1,5 +1,5 @@
 [package]
-name = "jsonxs-rs"
+name = "jsonxs"
 version = "0.1.0"
 authors = ["Petr Kozelka <pkozelka@gmail.com>"]
 edition = "2018"
