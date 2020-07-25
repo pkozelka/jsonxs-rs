@@ -1,7 +1,7 @@
 mod jsonxs;
 
-pub use jsonxs::JsonXsSerializer;
-pub use jsonxs::JsonXsValue;
+pub use crate::jsonxs::JsonXsSerializer;
+pub use crate::jsonxs::JsonXsValue;
 
 #[cfg(test)]
 mod tests {
