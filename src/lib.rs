@@ -1,3 +1,5 @@
+mod jsonxs;
+
 #[cfg(test)]
 mod tests {
     #[test]
