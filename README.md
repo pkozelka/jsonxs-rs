@@ -6,16 +6,7 @@ Provides helper to produce JSON for existing, JSON-agnostic data model.
 
 ## Usage
 
-This library is not yet published to [crates.io]() as it is still very immature.
-
-Add following dependency to your `Cargo.toml`:
-
-```toml
-[dependencies]
-jsonxs = { git = "https://github.com/pkozelka/jsonxs-rs", branch = "master" }
-```
-
-In your code, use it like this:
+Client code may look like this:
 
 ```rust
 use std::collections::HashMap;
