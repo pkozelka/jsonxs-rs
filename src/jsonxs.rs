@@ -31,6 +31,8 @@ enum CollectionType {
     },
 }
 
+
+/// JSON typed value representation.
 #[derive(Clone)]
 pub enum JsonXsValue/*<'a>*/ {
     Null,

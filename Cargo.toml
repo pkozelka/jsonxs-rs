@@ -1,9 +1,16 @@
 [package]
-name = "jsonxs"
-version = "0.1.0"
-authors = ["Petr Kozelka <pkozelka@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+name = "jsonxs"
+version = "0.0.1"
+authors = ["Petr Kozelka <pkozelka@gmail.com>"]
+exclude = [".github/**"]
+description = "Extra small JSON exporter"
+homepage = "https://github.com/pkozelka/jsonxs-rs"
+documentation = "https://docs.rs/jsonxs"
+readme = "README.md"
+keywords = ["json"]
+categories = ["encoding"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pkozelka/jsonxs-rs"
 
 [dependencies]
